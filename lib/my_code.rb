@@ -30,6 +30,10 @@ def map_to_square(source_array)
   i = 0 
   while i < source_array.length 
     new_array << source_array[i] * source_array[i]
+    
+    i += 1 
+  end 
+  return new_array
   #source_array.map { |x| x * x }
 end
 
