@@ -8,6 +8,10 @@ def map_to_no_change(source_array)
   while i < source_array.length 
     new_array << (source_array[i] * -1)
     
+    i += 1 
+  end 
+  return new_array
+    
   #source_array.map { |x| x }
 end
 
